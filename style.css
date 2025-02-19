@@ -1,0 +1,90 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container 
+{
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] 
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button 
+{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: #1a71cf;
+}
+
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li 
+{
+    background-color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+li:hover 
+{
+    transform: scale(1.05);
+    background-color: #444;
+}
+
+#totalMovies 
+{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#clearListBtn 
+{
+    background-color: #e65238;
+    margin-top: 20px;
+}
+
+#clearListBtn:hover 
+{
+    background-color: #c9463a;
+}  
